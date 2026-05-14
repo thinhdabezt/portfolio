@@ -4,7 +4,7 @@ const Contact = () => {
   const contactItems = [
     { label: 'Phone', value: '+84 392 280 230', href: 'tel:+84392280230' },
     { label: 'Email', value: 'thinhdinhtran0605@gmail.com', href: 'mailto:thinhdinhtran0605@gmail.com' },
-    { label: 'LinkedIn', value: 'linkedin.com/in/dinh-thinh-tran', href: 'https://linkedin.com/in/dinh-thinh-tran' },
+    { label: 'LinkedIn', value: 'linkedin.com/in/dinh-thinh-tran', href: 'https:/www.linkedin.com/in/đình-thịnh-trần-90b1a529a/' },
     { label: 'GitHub', value: 'github.com/thinhdabezt', href: 'https://github.com/thinhdabezt' },
   ];
 
@@ -18,7 +18,7 @@ const Contact = () => {
         className="card max-w-2xl mx-auto"
       >
         <h2 className="text-3xl font-bold mb-2 text-center">Get in Touch</h2>
-        <p className="text-white/60 mb-10 text-center">Open to internship and junior software engineering opportunities.</p>
+        <p className="text-white/60 mb-10 text-center">Open to internship and fresher software engineering opportunities.</p>
 
         <div className="space-y-4">
           {contactItems.map((item) => (
