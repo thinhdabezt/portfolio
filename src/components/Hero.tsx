@@ -3,7 +3,7 @@ import catImg from '../assets/cat.png';
 
 const Hero = () => {
   return (
-    <section id="about" className="section-container pt-32 lg:pt-40">
+    <section id="about" className="section-container pt-16 lg:pt-20">
       <div className="flex flex-col lg:flex-row items-center gap-12 lg:gap-20">
         <motion.div 
           initial={{ opacity: 0, y: 20 }}

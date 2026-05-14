@@ -17,7 +17,7 @@ const Home = () => {
             <span className="text-white/40">Software Engineer.</span>
           </h1>
           <p className="text-white/60 text-lg md:text-xl max-w-2xl mb-12 leading-relaxed mx-auto lg:mx-0">
-            I build full-stack applications with .NET 8, React, TypeScript, Flutter, and PostgreSQL, with a focus on clean architecture and production-ready features.
+            I build full-stack applications with .NET 8, React, TypeScript, Flutter, and PostgreSQL, with a focus on clean architecture and production-ready features. I also have a passion for learning game development with Unity and C#.
           </p>
           
           <div className="flex flex-col sm:flex-row items-center gap-6 justify-center lg:justify-start">

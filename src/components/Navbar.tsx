@@ -1,11 +1,17 @@
 import { useEffect, useState } from 'react';
 
 const Navbar = () => {
-  const navLinks = ['Home', 'About', 'Projects', 'Blog', 'Contact'];
+  const navLinks = [
+    { label: 'Home', id: 'home' },
+    { label: 'About', id: 'about' },
+    { label: 'Project', id: 'project' },
+    { label: 'Skill', id: 'skill' },
+    { label: 'Contact', id: 'contact' },
+  ];
   const [activeSection, setActiveSection] = useState('home');
 
   useEffect(() => {
-    const sectionIds = navLinks.map((item) => item.toLowerCase());
+    const sectionIds = navLinks.map((item) => item.id);
     const sections = sectionIds
       .map((id) => document.getElementById(id))
       .filter((section): section is HTMLElement => section !== null);
@@ -46,14 +52,14 @@ const Navbar = () => {
         <div className="hidden md:flex items-center gap-8">
           {navLinks.map((item) => (
             <a
-              key={item}
-              href={`#${item.toLowerCase()}`}
-              aria-current={activeSection === item.toLowerCase() ? 'page' : undefined}
+              key={item.id}
+              href={`#${item.id}`}
+              aria-current={activeSection === item.id ? 'page' : undefined}
               className={`text-sm font-medium transition-all duration-300 hover:text-primary ${
-                activeSection === item.toLowerCase() ? 'text-primary' : 'text-white/60'
+                activeSection === item.id ? 'text-primary' : 'text-white/60'
               }`}
             >
-              {item}
+              {item.label}
             </a>
           ))}
         </div>

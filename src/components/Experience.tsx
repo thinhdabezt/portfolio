@@ -18,22 +18,22 @@ const Experience = () => {
     },
     {
       year: '2025',
-      title: 'UiPath RPA Intern',
-      subtitle: 'FPT Software Philippines',
-      description:
-        'Developed and maintained UiPath automation workflows, analyzed process requirements, tested bot execution results, and collaborated with senior developers to debug reliability issues and document implementation details.',
-    },
-    {
-      year: '2025',
       title: 'Lost Soul',
       subtitle: 'Unity, C#, 2D Game Development',
       description:
         'Developed a 2D side-scrolling hack-and-slash game in Unity featuring melee combat, platforming, enemy waves, boss fights, collectibles, and progression systems.',
     },
+    {
+      year: '2025',
+      title: 'UiPath RPA Intern',
+      subtitle: 'FPT Software Philippines',
+      description:
+        'Developed and maintained UiPath automation workflows, analyzed process requirements, tested bot execution results, and collaborated with senior developers to debug reliability issues and document implementation details.',
+    },
   ];
 
   return (
-    <section id="blog" className="section-container">
+    <section id="project" className="section-container">
       <motion.h2 
         initial={{ opacity: 0, x: -20 }}
         whileInView={{ opacity: 1, x: 0 }}
@@ -41,7 +41,7 @@ const Experience = () => {
         viewport={{ once: true }}
         className="text-4xl font-bold mb-16"
       >
-        Experience
+        Projects & Experience
       </motion.h2>
       
       <div className="relative border-l-2 border-white/10 ml-8 md:ml-12 space-y-12">

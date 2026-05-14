@@ -12,9 +12,9 @@ function App() {
       <main>
         <Home />
         <Hero />
-        <div className="space-y-32">
-          <Skills />
+        <div className="space-y-16 lg:space-y-20">
           <Experience />
+          <Skills />
           <Contact />
         </div>
       </main>

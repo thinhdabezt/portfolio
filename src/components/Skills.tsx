@@ -11,7 +11,7 @@ const Skills = () => {
   ];
 
   return (
-    <section id="projects" className="section-container">
+    <section id="skill" className="section-container">
       <motion.h2 
         initial={{ opacity: 0, x: -20 }}
         whileInView={{ opacity: 1, x: 0 }}
