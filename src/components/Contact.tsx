@@ -4,7 +4,7 @@ const Contact = () => {
   const contactItems = [
     { label: 'Phone', value: '+84 392 280 230', href: 'tel:+84392280230' },
     { label: 'Email', value: 'thinhdinhtran0605@gmail.com', href: 'mailto:thinhdinhtran0605@gmail.com' },
-    { label: 'LinkedIn', value: 'linkedin.com/in/dinh-thinh-tran', href: 'https:/www.linkedin.com/in/đình-thịnh-trần-90b1a529a/' },
+    { label: 'LinkedIn', value: 'linkedin.com/in/dinh-thinh-tran', href: 'https://www.linkedin.com/in/thinhdabezt-6524-portfolio/' },
     { label: 'GitHub', value: 'github.com/thinhdabezt', href: 'https://github.com/thinhdabezt' },
   ];
 
